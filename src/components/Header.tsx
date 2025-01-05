@@ -40,11 +40,11 @@ const Header = () => {
         >
           Roadmap
         </Link>
-        <div className={`text-white`}>
+        {/* <div className={`text-white`}>
           <a href="https://" target="_blank" rel="noopener noreferrer">
             <p>Docs</p>
           </a>
-        </div>
+        </div> */}
       </div>
 
       <div className="hidden md:block">
@@ -102,11 +102,11 @@ const Header = () => {
         >
           Roadmap
         </Link>
-        <div className={`text-white`}>
+        {/* <div className={`text-white`}>
           <a href="https://" target="_blank" rel="noopener noreferrer">
             <p>Docs</p>
           </a>
-        </div>
+        </div> */}
         <a
           href="https://dapp.nickyai.online/"
           target="_blank"
