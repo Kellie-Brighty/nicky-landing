@@ -17,15 +17,15 @@ const Header = () => {
 
       <div className="hidden md:flex items-center text-white space-x-[30px]">
         <Link
-          to="about"
+          to="video"
           smooth={true}
           duration={500}
           className="cursor-pointer"
         >
-          About
+          Video
         </Link>
         <Link
-          to="about"
+          to="features"
           smooth={true}
           duration={500}
           className="cursor-pointer"
@@ -68,16 +68,16 @@ const Header = () => {
           <FaTimes className="text-white text-2xl" />
         </button>
         <Link
-          to="about"
+          to="video"
           smooth={true}
           duration={500}
           className="cursor-pointer text-white"
           onClick={toggleSidebar}
         >
-          About
+          Video
         </Link>
         <Link
-          to="about"
+          to="features"
           smooth={true}
           duration={500}
           className="cursor-pointer text-white"

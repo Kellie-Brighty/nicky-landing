@@ -10,7 +10,7 @@ const Solution = () => {
   return (
     <div
       className="bg-gradient-to-r from-black via-pink-700 to-black h-auto px-6 py-10 md:px-[100px] md:py-[100px]"
-      id="about"
+      id="features"
     >
       <div className="flex flex-col md:flex-row justify-between items-center">
         <p className="text-white text-[24px] md:text-[40px] w-full md:w-[500px] mb-6 md:mb-0">
