@@ -2,6 +2,9 @@ import { PrimaryButton } from "./Button";
 import Coin from "../assets/coin.svg";
 import Security from "../assets/security.svg";
 import RealTime from "../assets/real-time.svg";
+import MultiChat from "../assets/multi-chat.png";
+import Seamless from "..//assets/seamless.png";
+import Scalable from "../assets/scalable.png";
 
 const Solution = () => {
   return (
@@ -21,7 +24,7 @@ const Solution = () => {
           </p>
           <div>
             <a
-              href="https://nicky-ai.web.app/"
+              href="https://dapp.nickyai.online/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -31,13 +34,13 @@ const Solution = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-between items-center mt-10 md:mt-20 space-y-6 md:space-y-0 md:space-x-6">
+      <div className="flex flex-col md:grid md:grid-cols-3 justify-between items-center mt-10 md:mt-20 space-y-6 md:space-y-0 md:gap-[20px]">
         <div className="bg-[#191919] rounded-lg p-6 text-white h-auto md:h-[300px] w-full md:w-auto">
           <img src={Coin} className="mx-auto mb-4" />
           <p className="text-[20px] md:text-[30px] text-center">Meme Tokens</p>
           <p className="text-base md:text-[16px] font-thin text-center">
-            I track and analyze meme tokens across a blockchain, helping you
-            catch the next big wave
+            I track and analyze meme tokens, helping you catch the next big
+            wave, just provide me with the token name
           </p>
         </div>
         <div className="bg-[#191919] rounded-lg p-6 text-white h-auto md:h-[300px] w-full md:w-auto">
@@ -56,6 +59,36 @@ const Solution = () => {
           <p className="text-base md:text-[16px] font-thin text-center">
             Never miss a beat! I monitor markets 24/7 and chat with you in
             real-time about the best moves
+          </p>
+        </div>
+        <div className="bg-[#191919] rounded-lg p-6 text-white h-auto md:h-[300px] w-full md:w-auto">
+          <img src={MultiChat} className="mx-auto mb-4 w-[80px]" />
+          <p className="text-[20px] md:text-[30px] text-center">
+            Multiple Chats
+          </p>
+          <p className="text-base md:text-[16px] font-thin text-center">
+            You need to seperate concerns? I got you! I can chat with you about
+            multiple topics all at once
+          </p>
+        </div>
+        <div className="bg-[#191919] rounded-lg p-6 text-white h-auto md:h-[300px] w-full md:w-auto">
+          <img src={Seamless} className="mx-auto mb-4 w-[80px]" />
+          <p className="text-[20px] md:text-[30px] text-center">
+            Seamless On-chain Tasks
+          </p>
+          <p className="text-base md:text-[16px] font-thin text-center">
+            Performing tasks like purchasing, selling, executing transactions,
+            checking balances, and so much more? I’ve got you covered!
+          </p>
+        </div>
+        <div className="bg-[#191919] rounded-lg p-6 text-white h-auto md:h-[300px] w-full md:w-auto">
+          <img src={Scalable} className="mx-auto mb-4 w-[80px]" />
+          <p className="text-[20px] md:text-[30px] text-center">
+            Adaptive Growth
+          </p>
+          <p className="text-base md:text-[16px] font-thin text-center">
+            I can take advantage of continuous upgrades and evolving features
+            that grow with my needs.
           </p>
         </div>
       </div>

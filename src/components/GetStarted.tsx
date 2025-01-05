@@ -17,7 +17,7 @@ const GetStarted = () => {
             <BsTelegram className="text-white text-3xl md:text-[40px] cursor-pointer" />
             <BsTwitterX className="text-white text-3xl md:text-[40px] cursor-pointer" />
             <a
-              href="https://nicky-ai.web.app/"
+              href="https://dapp.nickyai.online/"
               target="_blank"
               rel="noopener noreferrer"
             >

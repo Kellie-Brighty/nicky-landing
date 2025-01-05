@@ -41,7 +41,7 @@ const Header = () => {
 
       <div className="hidden md:block">
         <a
-          href="https://nicky-ai.web.app/"
+          href="https://dapp.nickyai.online/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -91,7 +91,7 @@ const Header = () => {
           </a>
         </div>
         <a
-          href="https://nicky-ai.web.app/"
+          href="https://dapp.nickyai.online/"
           target="_blank"
           rel="noopener noreferrer"
         >
