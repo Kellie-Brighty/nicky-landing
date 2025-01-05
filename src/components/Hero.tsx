@@ -17,8 +17,16 @@ const Hero = () => {
         </p>
 
         <div className="flex justify-center md:justify-start mt-8 space-x-4">
-          <BsTelegram className="text-white text-3xl lg:text-[40px] cursor-pointer" />
-          <BsTwitterX className="text-white text-3xl lg:text-[40px] cursor-pointer" />
+          <a
+            href="https://t.me/nickyaioneth"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsTelegram className="text-white text-3xl lg:text-[40px] cursor-pointer" />
+          </a>
+          <a href="http://x.com/nickyaionerc20" target="_blank" rel="noopener noreferrer">
+            <BsTwitterX className="text-white text-3xl lg:text-[40px] cursor-pointer" />
+          </a>
           <a
             href="https://dapp.nickyai.online/"
             target="_blank"

@@ -73,14 +73,26 @@ const Footer = () => {
 
       <div className="text-white text-center space-y-6 md:space-y-[50px] mt-20 md:mt-[100px]">
         <div className="mt-8 space-x-6 md:space-x-[30px] flex justify-center">
-          <BsTelegram className="text-white text-[30px] md:text-[40px] cursor-pointer" />
-          <BsTwitterX className="text-white text-[30px] md:text-[40px] cursor-pointer" />
+          <a
+            href="https://t.me/nickyaioneth"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsTelegram className="text-white text-3xl lg:text-[40px] cursor-pointer" />
+          </a>
+          <a
+            href="http://x.com/nickyaionerc20"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsTwitterX className="text-white text-3xl lg:text-[40px] cursor-pointer" />
+          </a>
           <a
             href="https://dapp.nickyai.online/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <PrimaryButton text="AI Agent" onClick={() => null} />
+            <PrimaryButton text="Chat with me" onClick={() => null} />
           </a>
         </div>
         <p className="text-[12px] md:text-base">&copy; Nicky AI 2025 </p>

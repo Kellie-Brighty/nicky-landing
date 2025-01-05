@@ -32,6 +32,14 @@ const Header = () => {
         >
           Features
         </Link>
+        <Link
+          to="roadmap"
+          smooth={true}
+          duration={500}
+          className="cursor-pointer"
+        >
+          Roadmap
+        </Link>
         <div className={`text-white`}>
           <a href="https://" target="_blank" rel="noopener noreferrer">
             <p>Docs</p>
@@ -84,6 +92,15 @@ const Header = () => {
           onClick={toggleSidebar}
         >
           Features
+        </Link>
+        <Link
+          to="roadmap"
+          smooth={true}
+          duration={500}
+          className="cursor-pointer text-white"
+          onClick={toggleSidebar}
+        >
+          Roadmap
         </Link>
         <div className={`text-white`}>
           <a href="https://" target="_blank" rel="noopener noreferrer">
