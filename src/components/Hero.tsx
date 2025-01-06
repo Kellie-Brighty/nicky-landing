@@ -1,13 +1,14 @@
 import { BsTelegram } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
 import { PrimaryButton } from "./Button";
-import NickyHero from "../assets/nicky-hero.png";
+import NickyHero from "../assets/nicky-hero.gif";
+import NickyHeroMobile from "../assets/nicky-hero-mobile.gif";
 
 const Hero = () => {
   return (
     <div className="bg-gradient-to-br from-black via-pink-700 to-purple-900 h-screen flex flex-col md:flex-row justify-center md:justify-between items-center px-6 md:px-[100px]">
-      <div className="text-center md:text-left mt-[20px] md:mt-0">
-        <p className="text-white text-[30px] md:text-[34px] lg:text-[64px]">
+      <div className="text-center md:text-left mt-[200px] md:mt-0">
+        <p className="text-white text-[30px] md:text-[34px] lg:text-[45px]">
           Hi! I'm <i>Nicky</i>
           <br />
           Your AI Agent and Trading Partner
@@ -24,7 +25,11 @@ const Hero = () => {
           >
             <BsTelegram className="text-white text-3xl lg:text-[40px] cursor-pointer" />
           </a>
-          <a href="http://x.com/nickyaionerc20" target="_blank" rel="noopener noreferrer">
+          <a
+            href="http://x.com/nickyaionerc20"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <BsTwitterX className="text-white text-3xl lg:text-[40px] cursor-pointer" />
           </a>
           <a
@@ -37,11 +42,18 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="mt-8 md:mt-0">
+      <div className="hidden md:flex mt-8 md:mt-0">
         <img
           src={NickyHero}
           alt=""
-          className="rounded-full w-[300px] md:w-auto"
+          className="rounded-full lg:w-[1200px] md:w-auto"
+        />
+      </div>
+      <div className="flex md:hidden mt-8 md:mt-0">
+        <img
+          src={NickyHeroMobile}
+          alt=""
+          className="rounded-full lg:w-[1200px] md:w-auto"
         />
       </div>
     </div>
