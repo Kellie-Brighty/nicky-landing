@@ -43,13 +43,13 @@ const Footer = () => {
               </div>
               <div className="border border-white w-[150px] h-[150px] md:w-[200px] md:h-[200px] rounded-full flex justify-center items-center text-center">
                 <p className="text-[16px] md:text-[20px]">
-                  5% <br />
+                  2% <br />
                   Buy Tax
                 </p>
               </div>
               <div className="border border-white w-[150px] h-[150px] md:w-[200px] md:h-[200px] rounded-full flex justify-center items-center text-center">
                 <p className="text-[16px] md:text-[20px]">
-                  5% <br />
+                  2% <br />
                   Sell Tax
                 </p>
               </div>
@@ -57,7 +57,7 @@ const Footer = () => {
 
             <div className="border border-white mt-8 p-4 md:p-[20px] rounded-full flex items-center justify-between">
               <p className="text-[12px] md:text-base">
-                CA: 0x00000000000000000000000000000000000
+                CA: 0x9721dcB517F49f072ABE93098DfC573Cc856Cf57
               </p>
               <button
                 onClick={() =>
