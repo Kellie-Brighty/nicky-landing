@@ -61,7 +61,7 @@ const Footer = () => {
               </p>
               <button
                 onClick={() =>
-                  copyToClipboard("0x00000000000000000000000000000000000")
+                  copyToClipboard("0x9721dcB517F49f072ABE93098DfC573Cc856Cf57")
                 }
               >
                 <FaCopy className="text-white" />
