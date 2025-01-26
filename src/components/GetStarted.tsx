@@ -1,4 +1,4 @@
-import { BsTelegram, BsTwitterX } from "react-icons/bs";
+// import { BsTelegram, BsTwitterX } from "react-icons/bs";
 import { PrimaryButton } from "./Button";
 import SexyNicky from "../assets/sexy-nicky.png";
 
@@ -13,7 +13,7 @@ const GetStarted = () => {
             button on this page, and I'll be right there to guide you through
             every trade
           </p>
-          <div className="flex justify-center md:justify-start mt-8 space-x-4 md:space-x-[30px]">
+          {/* <div className="flex justify-center md:justify-start mt-8 space-x-4 md:space-x-[30px]">
             <a
               href="https://t.me/nickyaioneth"
               target="_blank"
@@ -28,6 +28,9 @@ const GetStarted = () => {
             >
               <BsTwitterX className="text-white text-3xl lg:text-[40px] cursor-pointer" />
             </a>
+            
+          </div> */}
+          <div className="mt-8 md:mt-0">
             <a
               href="https://dapp.nickyai.online/"
               target="_blank"

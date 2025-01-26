@@ -1,17 +1,17 @@
-import Nicky from "../assets/nicky-footer.png";
-import { BsTelegram, BsTwitterX } from "react-icons/bs";
-import { FaCopy } from "react-icons/fa";
-import { PrimaryButton } from "./Button";
+// import Nicky from "../assets/nicky-footer.png";
+// import { BsTelegram, BsTwitterX } from "react-icons/bs";
+// import { FaCopy } from "react-icons/fa";
+// import { PrimaryButton } from "./Button";
 
 const Footer = () => {
-  const copyToClipboard = (text: string) => {
-    navigator.clipboard.writeText(text);
-    alert("Copied to clipboard!");
-  };
+  // const copyToClipboard = (text: string) => {
+  //   navigator.clipboard.writeText(text);
+  //   alert("Copied to clipboard!");
+  // };
 
   return (
     <div className="bg-black py-10 px-6 md:py-[100px] md:px-[100px]">
-      <div className="bg-[#191919] rounded-[20px] px-6 py-8 pb-0 md:px-[50px] md:pl-0 text-white ">
+      {/* <div className="bg-[#191919] rounded-[20px] px-6 py-8 pb-0 md:px-[50px] md:pl-0 text-white ">
         <div className="text-center flex justify-center mb-[50px]">
           <div>
             <p className="text-[24px] md:text-[40px]">
@@ -69,10 +69,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="text-white text-center space-y-6 md:space-y-[50px] mt-20 md:mt-[100px]">
-        <div className="mt-8 space-x-6 md:space-x-[30px] flex justify-center">
+        {/* <div className="mt-8 space-x-6 md:space-x-[30px] flex justify-center">
           <a
             href="https://t.me/nickyaioneth"
             target="_blank"
@@ -94,7 +94,7 @@ const Footer = () => {
           >
             <PrimaryButton text="Chat with me" onClick={() => null} />
           </a>
-        </div>
+        </div> */}
         <p className="text-[12px] md:text-base">&copy; Nicky AI 2025 </p>
       </div>
     </div>

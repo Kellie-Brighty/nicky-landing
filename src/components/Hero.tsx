@@ -1,5 +1,5 @@
-import { BsTelegram } from "react-icons/bs";
-import { BsTwitterX } from "react-icons/bs";
+// import { BsTelegram } from "react-icons/bs";
+// import { BsTwitterX } from "react-icons/bs";
 import { PrimaryButton } from "./Button";
 import NickyHero from "../assets/nicky-hero.gif";
 import NickyHeroMobile from "../assets/nicky-hero-mobile.gif";
@@ -17,7 +17,7 @@ const Hero = () => {
           Let's navigate the world of Meme tokens together, safely and smartly.
         </p>
 
-        <div className="flex justify-center md:justify-start mt-8 space-x-4">
+        {/* <div className="flex justify-center md:justify-start mt-8 space-x-4">
           <a
             href="https://t.me/nickyaioneth"
             target="_blank"
@@ -32,6 +32,8 @@ const Hero = () => {
           >
             <BsTwitterX className="text-white text-3xl lg:text-[40px] cursor-pointer" />
           </a>
+        </div> */}
+        <div className="mt-8 md:mt-8">
           <a
             href="https://dapp.nickyai.online/"
             target="_blank"
